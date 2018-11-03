@@ -1,0 +1,257 @@
+
+
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+
+
+html 
+{ 
+    width:100%; 
+    height:100%; 
+    margin:0;
+    padding: 0; 
+    scroll-behavior: smooth;
+}
+
+body 
+{
+    
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    text-align: center;
+    font-family: "Lato", "Arial", "Times New Roman";
+    
+    
+}
+
+
+
+.profilepic{
+    border-radius: 50%;
+    
+    max-width: 40%;
+    max-height: 40%;
+}
+
+
+
+.centered
+{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.Home
+{
+
+    width: 100%;
+    height: 100%;
+    background-color: lightcoral;
+    float: left;
+    position: relative;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    
+    
+}
+
+
+
+
+.AboutMe
+{
+    width: 100%;
+    height: 100%;
+    background-color: #003763;
+    float: left;
+    position: relative;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    
+    
+}
+
+#skillquals
+{
+    display: inline-block; 
+    text-align: left; 
+}
+
+.resume
+{
+    color: white;
+}
+
+.Projects
+{
+    width: 100%;
+    height: 100%;
+    background-color: #86888A;
+    float: left;
+    position: relative;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    
+}
+
+
+h1{
+
+    color: white;
+    font-size: 4vmin;
+    
+}
+
+
+h2{
+
+    color: white;
+    font-size: 3vmin;
+    
+}
+
+h3{
+    color:white;
+    font-size: 2.5vmin;
+    
+}
+
+
+.modh2{
+
+    color: white;
+    font-size: 3vmin;
+    margin:0;
+    padding:0;
+    
+}
+
+.modh3{
+    color:white;
+    font-size: 2.5vmin;
+    margin:0;
+    padding:0;
+}
+
+
+
+p
+{
+    
+    display: inline-block; text-align: middle; 
+    font-weight: bold;
+    font-size: 1.75vmin;
+    color:white;
+    
+    
+}
+
+pre
+{
+    display: inline-block; text-align: middle; 
+    font-size: 1vmin;
+    color:white;
+}
+
+
+
+.nav{
+    
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
+
+.nav li
+{
+    display:inline;
+}
+
+.nav a{
+    position:relative;
+    display:inline-block;
+    padding:10px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 2vmin;
+}
+
+.nav a:hover::after
+{
+    content:'';
+    position:absolute;
+    width: 100%;
+    height: 0;    
+    left:0;
+    bottom:0px; 
+    border-bottom: 2px solid white;  
+}
+
+
+ul
+{
+    color:white;
+    font-weight: bold;
+    font-size: 2vmin;
+    list-style: none;
+}
+
+
+.fa {
+   
+    padding: 10px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
+.fa-facebook {
+    background: lightcoral;
+    color: white;
+}
+
+.fa-facebook:hover {
+    background: #3B5998;
+}
+
+.fa-instagram {
+    background: lightcoral;
+    color: white;
+}
+
+.fa-instagram:hover {
+    background: #F77737;
+}
+
+
+.fa-github {
+    background: lightcoral;
+    color: white;
+}
+
+.fa-github:hover {
+    background: black;
+}
+
+.fa-linkedin {
+    background: lightcoral;
+    color: white;
+}
+
+.fa-linkedin:hover {
+    background: #0077b5;
+}
